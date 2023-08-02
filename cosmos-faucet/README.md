@@ -50,7 +50,11 @@ Let *bob* get more than **12token** from faucet successfully to exceed the *coin
   }
   ```
 
-3. Check the balance of *bob* via $Rest-RPC 
+3. Check the balance of *bob* via $Rest-RPC with API: /cosmos/bank/v1beta1/balances/{address}
 
 ### Hint
 * Each time *bob* could get *5token* from the faucet and with limit of *12token*, this means only 2 times could be performed towards the faucet.
+
+### References
+1. https://docs.ignite.com/
+2. https://docs.cosmos.network/main/core/grpc_rest
